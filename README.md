@@ -21,41 +21,9 @@ Tu trouveras ici plusieurs commandes personnalisées pour les bots Discord utili
 
 Clique sur le bouton **Code**, puis sur **Download ZIP**.
 
-### 2. Installer les dépendances
+### 2. Configurer le bot
 
-Dans la console :
-
-```bash
-npm install
-```
-
-### 3. Configurer le bot
-
-Crée un fichier `.env` à la racine du projet :
-
-```env
-TOKEN=TON_TOKEN
-CLIENT_ID=TON_CLIENT_ID
-GUILD_ID=TON_ID_SERVEUR
-```
-
-Remplace les valeurs par les identifiants de ton propre bot et de ton serveur.
-
-### 4. Déployer les commandes
-
-Exécute :
-
-```bash
-node deploy-commands.js
-```
-
-### 5. Démarrer le bot
-
-Exécute :
-
-```bash
-node index.js
-```
+Va dans le fichier .env et remplace par tes propres valeurs
 
 ## ⚠️ Informations importantes
 
