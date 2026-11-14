@@ -9,7 +9,7 @@ module.exports = {
     const embed = new EmbedBuilder()
       .setColor(0x00AAFF)
       .setTitle('📜 Règlement du serveur')
-      .setImage('reglement.png')
+      .setImage('89a693db-d2ad-452b-842c-8c0397ba015c-1.png')
       .setFooter({ text: interaction.guild.name })
       .setTimestamp();
 
